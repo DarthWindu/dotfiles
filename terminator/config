@@ -1,0 +1,49 @@
+[global_config]
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 932b497d-f0b4-4f16-8dc2-3d589f070181
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:18
+      size = 956, 1041
+      title = carlito@carlito-XPS-13-9360: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = MaterialDark
+      type = Terminal
+      uuid = 932b497d-f0b4-4f16-8dc2-3d589f070181
+[plugins]
+[profiles]
+  [[default]]
+    foreground_color = "#729fcf"
+    background_color = "#1e1f29"
+    cursor_color = "#f9dc5c"
+    palette = "#2e3436:#ff512f:#b2ffa9:#fffd82:#3185fc:#dd2476:#66d7d1:#f2efea:#555753:#ff512f:#b2ffa9:#fffd82:#3185fc:#dd2476:#66d7d1:#f2efea"
+    split_to_group = True
+  [[Batman]]
+    background_color = "#1b1d1e"
+    cursor_color = "#fcef0c"
+    foreground_color = "#6f6f6f"
+    palette = "#1b1d1e:#e6dc44:#c8be46:#f4fd22:#737174:#747271:#62605f:#c6c5bf:#505354:#fff78e:#fff27d:#feed6c:#919495:#9a9a9d:#a3a3a6:#dadbd6"
+    split_to_group = True
+  [[Bloody]]
+    cursor_color = "#aaaaaa"
+  [[Dracula]]
+    background_color = "#1e1f29"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#f8f8f2"
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    split_to_group = True
+  [[MaterialDark]]
+    background_color = "#1e1f29"
+    cursor_color = "#f9dc5c"
+    palette = "#2e3436:#ff512f:#b2ffa9:#fffd82:#3185fc:#dd2476:#66d7d1:#f2efea:#555753:#ff512f:#b2ffa9:#fffd82:#3185fc:#dd2476:#66d7d1:#f2efea"
+    split_to_group = True
